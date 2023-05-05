@@ -15,14 +15,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img id="imagen1" src="img/enfermero 1.jpg" alt="enfermero" height=60% width=40%>
+    <img id="imagen1" src="img/enfermero1.jpg" alt="enfermero" height=60% width=40%>
     <section>
+
     <h3>BANNER</h3>
+    <img id="imagen2" src="img/sala-enfermeria.jpg" alt="img enfermeria">
+
+
+
     <table style="border: 2px solid black;">
         <thead></thead>
         <tr>
             <td style="border: 2px solid black;"><h1>Pedriatria</h1></td>
-            <td style="border: 2px solid black;">Doctores y Profecionales</td>
+            <td style="border-bottom: 2px solid black">Doctores y Profecionales</td>
         </tr>
         <th style="border: 1px solid black;">descripcion de Pedriatria</th>
         <td>DR dulce</td>
@@ -38,10 +43,13 @@
     <section>
         <h1>TURNOS</h1>
         <a></a>
-        <form action="formulario-turno.php" method="post">
-            <label for="nombre">Nombre</label>
+        <form action="formulario-turno.php" method="get">
+            <label for="nombre"><h2>Nombre</h2></label>
             <input type="text" id="nombre" name="nombre" placeholder="Ingresar nombre">
-            <label for="DNI">DNI</label>
+
+        </form>
+        <form action="formulario-turno.php" method="post">
+            <label for="DNI"><h3>DNI</h3></label>
             <imput type="text" id="DNI" name="DNI" placeholder="ingresar DNI">
 
         </form>
