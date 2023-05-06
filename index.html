@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <nav>
-        <a href="Inicio.html">Inicio</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="Profecionales.html">Profecionales</a>
-        
-
+    <title>Clinica medica</title>
+    
+    <nav class="Menuinicio">
+        <a class="Mitem" > <img  id="icono-menu" src="img/logoclinica.jpg"></a>
+        <a class="Mitem" href="Inicio.html"><h1>Inicio</h1></a>
+        <a class="Mitem" href="servicios.html"><h1>Servicios<h1></a>
+        <a class="Mitem" href="Profecionales.html"><h1>Profecionales</h1></a>
     </nav>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,24 +18,24 @@
     <img id="imagen1" src="img/enfermero1.jpg" alt="enfermero" height=60% width=40%>
     <section>
 
-    <h3>BANNER</h3>
     <img id="imagen2" src="img/sala-enfermeria.jpg" alt="img enfermeria">
 
 
 
-    <table style="border: 2px solid black;">
+
+    <table id="tablaexplicativa" style="border: 2px solid black;">
         <thead></thead>
         <tr>
             <td style="border: 2px solid black;"><h1>Pedriatria</h1></td>
-            <td style="border-bottom: 2px solid black">Doctores y Profecionales</td>
+            <td style="border-bottom: 2px solid black;margin-bottom: 0%;margin-left: 0%;">Doctores y Profecionales</td>
         </tr>
-        <th style="border: 1px solid black;">descripcion de Pedriatria</th>
+        <th style="border-right: 2px solid black;">descripcion de Pedriatria</th>
         <td>DR dulce</td>
         <tr>
-            <td><h1>otorrinolaringologia</h1></td>
+            <td style="border-right: 2px solid black;margin-top: 0%;border-top: 2px solid black;"><h1>otorrinolaringologia</h1></td>
         </tr>
-        <th>descripcion basica</th>
-        <td> Dr Dulce</td>
+        <th style="border-top: 2px solid black;border-right: 2px solid black;margin-top: 0%;">Profesional de la medicina que ha recibido formación en el diagnóstico y tratamiento de las enfermedades del oído, la nariz y la garganta.</th>
+        <td style="margin-top: 0% solid black;border-top: 2px solid black; border-left: 2px black;"> Dr Dulce</td>
 
     </table>
     </section>
@@ -43,16 +43,20 @@
     <section>
         <h1>TURNOS</h1>
         <a></a>
-        <form action="formulario-turno.php" method="get">
+        <form id="formulario" action="formulario-turno.php" method="get">
             <label for="nombre"><h2>Nombre</h2></label>
             <input type="text" id="nombre" name="nombre" placeholder="Ingresar nombre">
-
-        </form>
-        <form action="formulario-turno.php" method="post">
             <label for="DNI"><h3>DNI</h3></label>
-            <imput type="text" id="DNI" name="DNI" placeholder="ingresar DNI">
+            <input type="text" id="DNI" name="DNI" placeholder="ingresar DNI">
+            <label for="email"><h2>Email</h2></label>
+            <input type="text" id="email" name="email" placeholder="ingresar correo electronico">
 
         </form>
+    </section>
+    <section>
+        <h1>descripcion</h1>
+
+
     </section>
     
 </body>
