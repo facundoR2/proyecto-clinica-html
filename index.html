@@ -8,15 +8,23 @@
     
     <nav class="Menuinicio">
         <a class="Mitem" > <img  id="icono-menu" src="img/logoclinica.jpg"></a>
-        <a class="Mitem" href="Inicio.html"><h1>Inicio</h1></a>
-        <a class="Mitem" href="servicios.html"><h1>Servicios<h1></a>
-        <a class="Mitem" href="Profecionales.html"><h1>Profecionales</h1></a>
+        <a class="Mitem" href="index.html#Menuinicio"><h1>Inicio</h1></a>
+        <a class="Mitem" href="index.html#tablaexplicativa"><h1>Servicios<h1></a>
+        <a class="Mitem" href="index.html#tablaexplicativa"><h1>Profecionales</h1></a>
+        <a class="Mitem" href="index.html#formulario"><h1>Turnos</h1></a>
     </nav>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img id="imagen1" src="img/enfermero1.jpg" alt="enfermero" height=60% width=40%>
+
+    <div id="banner">
+        <img id="imagen1" src="img/enfermero1.jpg" alt="enfermero" height=90% width=40%>
+        <p class="p p1">con nuestros mejores medicos</p>
+        <p class="p p2"> atencion personalidada</p>
+
+    </div>
     <section>
+
 
     <img id="imagen2" src="img/sala-enfermeria.jpg" alt="img enfermeria">
 
@@ -39,6 +47,14 @@
 
     </table>
     </section>
+    <article>
+        <h1>IMPORTANTE</h1>
+        <h2>leer atentamente</h2>
+        <p>
+            se cree que un alien esta suelto alrededor de la instalacion
+        </p>
+
+    </article>
 
     <section>
         <h1>TURNOS</h1>
@@ -50,18 +66,28 @@
             <input type="text" id="DNI" name="DNI" placeholder="ingresar DNI">
             <label for="email"><h2>Email</h2></label>
             <input type="text" id="email" name="email" placeholder="ingresar correo electronico">
+            <label for="horario"><h3>horarios</h3></label>
+            <select>
+                <option value="matutino">matutino</option>
+                <option value="Tarde">tarde</option>
+                <option value="noche">noche</option>
+            </select>
+            <button type="submit">
+                Enviar formulario<b></b>
+            </button>
+
 
         </form>
     </section>
-    <section>
-        <h1>descripcion</h1>
+    <aside>
 
-
-    </section>
+    </aside>
     
 </body>
 <footer>
     <h1>contactos</h1>
-    <a href="ejemplo@hotmail.com">ejemplo@hotmail.com</a>
+    <a id="emailcontacto" href="ejemplo@hotmail.com">ejemplo@hotmail.com</a>
+
+    <h5>Todos los derechos de esta pagina como de su contenido estan reservados y su copia,uso indevido,malintencionado o adulteracion se penara segun las leyes de informatica art.13461 de la constitucion</h5>
 </footer>
 </html>
