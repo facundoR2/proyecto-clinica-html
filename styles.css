@@ -10,9 +10,9 @@
 }
 .Menuinicio{
     background-color: lightgray;
-    display:flex;
-    justify-content: space-between;
-
+    display:contents;
+    align-content:space-between;
+    
 }
 #tarjeta1{
   position: relative;
