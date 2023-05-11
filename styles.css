@@ -12,6 +12,7 @@
     background-color: lightgray;
     display: flex;
     align-content: space-between;
+    align-items:center;
     
 }
 
@@ -33,14 +34,6 @@
   display: flex;
   justify-content: space-around;
 
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #f2f2f2;
 }
 head{
     background-color: #333;
