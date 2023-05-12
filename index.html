@@ -6,31 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica medica</title>
     <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div id="Micono">
+        <img  id="icono-menu" src="img/logito.png">
+    </div>
     <nav>
         <ul>
-        <li><a class="Menuinicio"><img  id="icono-menu" src="img/logito.png"></a></li>
         <li><a class="Menuinicio" href="#banner">Inicio</a></li>
         <li><a class="Menuinicio" href="#tablaexplicativa">Servicios</a></li>
         <li><a class="Menuinicio" href="#pros">Profecionales</a></li>
         <li><a class="Menuinicio" href="#formulario">Turnos</a></li>
         </ul>
     </nav>
-</head>
+</header>
 <body>
-    <!--targeta en formato de "banner"-->
-    <!--se utiliza css para acomodar la imagen solamente.-->
+    <article class="anuncio">
+        <p class="anuncio"><h1>IMPORTANTE</h1></p>
+        <p class="anuncio"><h2>leer atentamente</h2></p>
+        <p class="anuncio" style="border: 2px solid black; width: 300px;">
+            la instalacion de la cuidad de RIO GRANDE se reubico a Sarmiento 1935
+        </p>
 
-    <div id="tarjeta1">
-        <img id="imagen1" src="img/enfermero1.jpg" alt="enfermero" height=90% width=40%>
-        <p class="p p1">con nuestros mejores medicos con atencion personalizada de alta calidad</p>
-
-    </div>
+    </article>
+    <!--targeta de promoción n°1-->
+    <section id="tarjeta">
+        <div id="t-imagen1">
+            <img src="img/imagen-tarjeta.webp" alt="imagen-doctora">
+        </div>
+        <p>con nuestros mejores medicos con atencion personalizada de alta calidad<br>
+        siempre a la vanguardia de nuestros pacientes</p>
     </section>
-    <div id="tarjeta2">
-        <p class="p p2" style="text-align: center;">las mejores instalaciones de vanguardia en toda la provincia</p>
-        <img id="imagen2" src="img/sala-enfermeria.jpg" alt="img enfermeria">
-
-    </div>
+    <!--targeta de promoción n°2-->
+    <section id="tarjeta1">
+        <p>las mejores instalaciones de vanguardia en toda la provincia</p>
+        <div id="t-imagen2">
+            <img  src="img/sala pacientes.jpg" alt="img enfermeria">
+        </div>
+    </section>
 
 
 
@@ -38,15 +51,15 @@
     <table id="tablaexplicativa" style="border: 2px solid black;">
         <thead></thead>
         <tr>
-            <td style="border: 2px solid black;"><h1>Pedriatria</h1></td>
-            <td style="border-bottom: 2px solid black;margin-bottom: 0%;margin-left: 0%;"><h1 style="font-size: medium;">Doctores y Profecionales</h1></td>
+            <td style="border-bottom: 2px solid black;margin-bottom: 0%;border-right: 2px solid black;padding: 0%;"><h1>Pedriatria</h1></td>
+            <td style="border-bottom: 2px solid black;margin-bottom: 0%;margin: 0% solid black;"><h1 style="font-size: medium;">Doctores y Profecionales</h1></td>
         </tr>
         <th style="border-right: 2px solid black;">Parte de la medicina que se ocupa del estudio del crecimiento y el desarrollo de los niños hasta la adolescencia, así como del tratamiento de sus enfermedades.</th>
         <td style="border-bottom: 2px solid black;">DR dulce<br>
         Dr martin<br>
         Dr santillan</td>
         <tr>
-            <td style="border-right: 2px solid black;margin-top: 0%;border-top: 2px solid black;"><h1>otorrinolaringología</h1></td>
+            <td style="border-right: 2px solid black;margin-top: 0%;border-top: 2px solid black;margin: 0px;"><h1>otorrinolaringología</h1></td>
         </tr>
         <th style="border-top: 2px solid black;border-right: 2px solid black;margin-top: 0%;">Profesional de la medicina que ha recibido formación en el diagnóstico y tratamiento de las enfermedades del oído, la nariz y la garganta.</th>
         <td style="margin-top: 0% solid black;border-top: 2px solid black; border-left: 2px black;"> Dr almonazid<br>
@@ -78,24 +91,17 @@
         </div>
     </section>
     <!-- articulo donde se aclara informacion util-->
-    <article>
-        <h1>IMPORTANTE</h1>
-        <h2>leer atentamente</h2>
-        <p style="border: 2px solid black; width: 300px;">
-            la instalacion de la cuidad de RIO GRANDE se reubico a Sarmiento 1935
-        </p>
+    <p id="ftitulo">
+        <h1 style="padding-left:40%;border: 2px solid black;border-radius: 10%;">TURNOS</h1>
+    </p>
 
-    </article>
-
-    <section>
-        <h1>TURNOS</h1>
-        <a></a>
-        <form id="formulario" action="formulario-turno.php" method="get">
-            <label for="nombre"><h2>Nombre</h2></label>
+    <section id="formulario">
+        <form  action="formulario-turno.php" method="get">
+            <label for="nombre"><h3>Nombre</h3></label>
             <input type="text" id="nombre" name="nombre" placeholder="Ingresar nombre">
             <label for="DNI"><h3>DNI</h3></label>
             <input type="text" id="DNI" name="DNI" placeholder="ingresar DNI">
-            <label for="email"><h2>Email</h2></label>
+            <label for="email"><h3>Email</h3></label>
             <input type="text" id="email" name="email" placeholder="ingresar correo electronico">
             <label for="horario"><h3>horarios</h3></label>
             <select>
@@ -106,16 +112,11 @@
             <button type="submit">
                 Enviar formulario<b></b>
             </button>
-
-
         </form>
     </section>
     <aside>
         <h1>Se crea una vacuna</h1>
         <ul>
-
-Basándome en los resultados de la búsqueda web, he generado el siguiente borrador de noticia:
-
 Científicos desarrollan una vacuna contra la gripe de las vacas
 
 Un equipo de investigadores ha logrado desarrollar una vacuna eficaz contra la gripe de las vacas, una enfermedad respiratoria que afecta a millones de bovinos en todo el mundo y que causa pérdidas económicas y sanitarias.

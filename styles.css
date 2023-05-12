@@ -4,74 +4,130 @@
     padding:0px;
     box-sizing: border-box;
 }
-#icono-menu{
+/*cabezera de la pagina*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: lightgray;
+  box-shadow: 0 2px 4px rgb(66, 66, 66);
+}
+/*icono del menu*/
+#Micono{
     height: 60px;
     width: 60px;
+    justify-content: left;
 }
-.Menuinicio{
-    background-color: lightgray;
-    display: flex;
-    align-content: space-between;
-    align-items:center;
-    
+nav{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  background-color: lightgrey;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
 }
 
-#tarjeta1{
-  position: relative;
+.Mitem{
+  display: inline-flex;
+  align-content: space-around;
+
+}
+/*fin cabezera*/
+body{
+  background-color: lightcyan;
+}
+img{
+  max-width: 100%;
+  min-width: 30%;
+  height: auto;
+}
+/*seccion anuncio*/
+.anuncio{
+  display: flex;
+  width: 100%;
+  padding-inline: 10%;
+  align-items: center;
+  align-content:space-between;
+}
+
+/*tarjeta comercial 1*/
+#tarjeta{
   width: 100%;
   height: 100%;
   display:flex;
   justify-content: space-around;
-  .p1{
-    align-self: center;
-
-  }
 }
-#tarjeta2{
-  position: relative;
+#tarjeta p{ /*alineación de parrafo*/
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+#t-imagen1{ /*alineacion de imagen*/
+  height: 60%;
+  width: 100%;
+}
+/*tarjeta comercial 2*/
+#tarjeta1{
   width: 100%;
   height: 100%;
-  display: flex;
+  padding-left: 45%;
+  display:flex;
+  align-items: center;
   justify-content: space-around;
-
 }
-head{
-    background-color: #333;
-    
+#tarjeta1 p{ /*alineación de parrafo*/ 
+  display: flex;
+  align-items: center;
+  font-size: 22px;
 }
-.Mitem{
-  text-align:center;
-  align-items: flex-start;
-  display: auto;
+#t-imagen2{ /*alineacion de imagen*/
+  height: 5%;
+  width: 60%;
+  justify-content: right;
 }
+/*tabla explicativa de servicios*/
 #tablaexplicativa{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
   background-color: lightgrey;
-
 }
-
-body{
-  background-color: lightcyan;
+#pros{
+  display: inline-flex;
+  align-content: space-between;
 }
-
-img{
-  max-width: 100%;
-  height: auto;
-}
-#imagen1{
-  width:20%;
-  height:50%;
-}
-#imagen2{
-  width:20%;
-  height:30%;
+/*seccion de formulario*/
+#ftitulo{
+  display: flex;
+  width: 100%;
+  justify-content:center;
+  align-items: center;
+  background-color: lightgrey;
+  
 }
 #formulario{
-  display:inline-table;
+  display:flex;
+  width: 100%;
+  justify-content: center;
   align-items: left;
   padding: 0%;
   background-color: lightgray;
 }
 #piedepagina{
+  display:table;
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: baseline;
+  align-content:center;
+  padding-inline: 5%;
+  
   background-color: lightgray;
   
 }
