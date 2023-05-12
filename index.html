@@ -13,10 +13,11 @@
     </div>
     <nav>
         <ul>
-        <li><a class="Menuinicio" href="#banner">Inicio</a></li>
-        <li><a class="Menuinicio" href="#tablaexplicativa">Servicios</a></li>
-        <li><a class="Menuinicio" href="#pros">Profecionales</a></li>
-        <li><a class="Menuinicio" href="#formulario">Turnos</a></li>
+        <li><a class="Menuinicio" href="#banner"><h1>Inicio</h1></a></li>
+        <li><a class="Menuinicio" href="#tablaexplicativa"><h1>Servicios</h1></a></li>
+        <li><a class="Menuinicio" href="#pros"><h1>Profecionales</h1></a></li>
+        <li><a class="Menuinicio" href="#formulario"><h1>Turnos</h1></a></li>
+        <li><a class="Menuinicio" href="#noticias"><h1>Noticias</h1></a></li>
         </ul>
     </nav>
 </header>
@@ -70,30 +71,23 @@
     </section>
     <!--seccion donde está la informacion de contacto-->
     <section id="pros">
-        <h1>PROFESIONALES</h1>
-        <div id="infodulce">
+        <div>
         <label for="contacto ">DR dulce:</label>
         <a id="contacto dulce" href="manueldulce@hotmail.com">manueldulce@hotmail.com</a>
         <a id="contacto numero" href="0264487167">0264487167</a>
         </div>
-        
-        <div id="infoblanco">
+        <div>
             <label for="contacto">Dr Blanco:</label>
             <a id="contacto blanco" href="eduardob@gmail.com">eduardob@gmail.com</a>
             <a id="contaco blanco" href="02964785269">02964785269</a>
         </div>
-
-        <div id="infosantillan">
+        <div>
             <label for="contacto">Dr santillan</label>
             <a id="contacto santillan" href="santi@gmail.com">santi@gmail.com</a>
             <a id="contacto santillan" href="02964598423">02964598423</a>
-
         </div>
     </section>
     <!-- articulo donde se aclara informacion util-->
-    <p id="ftitulo">
-        <h1 style="padding-left:40%;border: 2px solid black;border-radius: 10%;">TURNOS</h1>
-    </p>
 
     <section id="formulario">
         <form  action="formulario-turno.php" method="get">
@@ -113,10 +107,13 @@
                 Enviar formulario<b></b>
             </button>
         </form>
+        <p>matutino: 7:00hs a 12:00hs<br>tarde: 12:40hs a 18:00hs<br>noche: 18:40hs a 00:00hs</p>
+
+
     </section>
-    <aside>
-        <h1>Se crea una vacuna</h1>
-        <ul>
+    <aside id="noticias">
+        <p><h2>Se crea una vacuna</h2></p>
+        <ul><!--se observa la diferencia entre un texto flexible y uno no-flexible -->
 Científicos desarrollan una vacuna contra la gripe de las vacas
 
 Un equipo de investigadores ha logrado desarrollar una vacuna eficaz contra la gripe de las vacas, una enfermedad respiratoria que afecta a millones de bovinos en todo el mundo y que causa pérdidas económicas y sanitarias.

@@ -47,9 +47,8 @@ img{
 }
 /*seccion anuncio*/
 .anuncio{
-  display: flex;
+  display:inline-table;
   width: 100%;
-  padding-inline: 10%;
   align-items: center;
   align-content:space-between;
 }
@@ -86,7 +85,7 @@ img{
 }
 #t-imagen2{ /*alineacion de imagen*/
   height: 5%;
-  width: 60%;
+  width: 100%;
   justify-content: right;
 }
 /*tabla explicativa de servicios*/
@@ -98,8 +97,15 @@ img{
   background-color: lightgrey;
 }
 #pros{
-  display: inline-flex;
+  display:inline-grid;
+  align-items: center;
   align-content: space-between;
+}
+#pros div{
+  display: flex;
+  align-content:space-between;
+  align-items: center;
+
 }
 /*seccion de formulario*/
 #ftitulo{
