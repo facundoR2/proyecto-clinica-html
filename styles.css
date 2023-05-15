@@ -92,10 +92,11 @@ img{
 #tablaexplicativa{
   width: 100%;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
   background-color: lightgrey;
 }
+/*sección de contactos Medicos*/
 #pros{
   display:inline-grid;
   align-items: center;
@@ -132,8 +133,13 @@ img{
   padding-right: 10%;
   align-items: baseline;
   align-content:center;
-  padding-inline: 5%;
+  padding-inline: 25%;
   
   background-color: lightgray;
   
+}
+#piedepagina a{
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
