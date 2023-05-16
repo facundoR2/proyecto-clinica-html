@@ -51,6 +51,7 @@ img{
   width: 100%;
   align-items: center;
   align-content:space-between;
+  background-color: rgb(180, 226, 180);
 }
 
 /*tarjeta comercial 1*/
@@ -124,6 +125,14 @@ img{
   align-items: left;
   padding: 0%;
   background-color: lightgray;
+}
+#noticias{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: rgb(180, 226, 180);
+  align-content: space-around;
 }
 #piedepagina{
   display:table;
