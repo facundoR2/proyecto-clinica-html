@@ -35,7 +35,7 @@ nav{
   width: 100%;
   background-color: lightgrey;
   font-family:"BebasNeue";
-  background-image: url(img/ambulancia\ fondo.jpg.jpg);
+  /* background-image: url(img/ambulancia\ fondo.jpg.jpg); */
 }
 nav li{
   display: table;
@@ -111,7 +111,7 @@ section{
 /*tarjeta comercial 2*/
 #tarjeta1{
   display:inline-flex;
-  width: 100%;
+  width: 80%;
   height: 20%;
   padding-left: 5%;
   padding-right: 25%;
@@ -120,6 +120,7 @@ section{
   /* align-items: center; */
   line-height:100px;
   justify-content:center;
+  background-color: blue;
 }
 #tarjeta1 p{ /*alineación de parrafo*/ 
   display: flex;
@@ -177,18 +178,22 @@ section{
 .formulario{
   display:flex;
   width: 80%;
+  margin-left: 10%;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   padding: 0%;
   background-color: lightgray;
 }
 #noticias{
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
   height: auto;
   display: flex;
   align-items: center;
-  background-color: rgb(180, 226, 180);
   align-content: space-around;
+  background-color: coral;
 }
 #piedepagina{
   display:table;
